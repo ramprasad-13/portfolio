@@ -1,0 +1,43 @@
+@media only screen and (max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #about{
+        display: block;
+        height: 100vh;
+    }
+    #about img{
+        width: 100vw;
+        height: 60vh;
+        object-fit: fill;
+    }
+    #about #about_heading{
+        text-align: center;
+        position:static;
+    }
+    #about #about_info{
+        width: 100%;
+        text-align: justify;
+        padding:0 10px;
+        position: static;
+    }
+
+    #name{
+        font-size: 1.9rem;
+    }
+    .hero_text{
+        display: block;
+        text-align: center;
+    }
+    #work table{
+        width: 350px;
+        min-width: 300px;
+        max-width: 550px;
+        font-size: 1rem;
+    }
+    #work table th{
+        width:40%;
+    } 
+
+}
