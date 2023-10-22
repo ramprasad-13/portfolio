@@ -9,7 +9,7 @@
     }
     #about img{
         width: 100vw;
-        height: 60vh;
+        height: 50vh;
         object-fit: fill;
     }
     #about #about_heading{
@@ -24,7 +24,7 @@
     }
 
     #name{
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
     .hero_text{
         display: block;
@@ -39,5 +39,4 @@
     #work table th{
         width:40%;
     } 
-
 }

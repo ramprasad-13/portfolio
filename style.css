@@ -1,35 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-}
-
 .nav-extended{
     background-color: rgb(20,20,20);
-}
-
-.hero_text{
-    display: none;
-}
-
-#about{
-    display: flex;
-    text-align: center;
-}
-#my_pic{
-    height: 100vh;
-}
-#about_info{
-    width: 30vw;
-    text-align: justify;
-    position: relative;
-    top: 300px;
-}
-#about_heading{
-    position: relative;
-    top:200px;
-    left:300px;
-    font-size:2rem;
 }
 
 #work{
@@ -46,4 +16,37 @@
 }
 caption{
     font-size: 2rem;
+}
+
+@media only screen and (min-width:900px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .hero_text{
+        display: none;
+    }
+    
+    #about{
+        display: flex;
+        text-align: center;
+    }
+    #my_pic{
+        height: 100vh;
+    }
+    #about_info{
+        width: 30vw;
+        text-align: justify;
+        position: relative;
+        top: 300px;
+    }
+    #about_heading{
+        position: relative;
+        top:200px;
+        left:300px;
+        font-size:2rem;
+    }
+    
+
 }
